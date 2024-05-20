@@ -1,0 +1,63 @@
+body{
+    margin: 0%;
+    margin-right: 1px;
+    
+}
+
+section {
+    height: 500px;
+}
+.contenedor{
+    border: 0%;
+    background-color: #091725;
+    display: flex;
+    flex-direction:row;
+    align-items: space-between;
+    align-items: center;
+    border-bottom: 5px solid #1992b1; /* Delineado de 1 píxel sólido de color gris claro */
+    margin-bottom: 10px;
+    margin-bottom: 0%;
+}
+.titulo1{
+    color: white;
+    margin-left: 15%;
+    margin-right: 10px;
+}
+.titulo2{
+    color: rgb(0, 153, 255);
+    margin: 0%;
+}
+.Opciones {
+    display: flex;
+    padding: 40px;
+    align-items: flex-end;
+    margin-left: auto;
+   
+}
+
+
+.Opciones ul{
+    color: white;
+    display: flex;
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+
+    
+}
+
+.Opciones li{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px ;
+}
+.imagenFondo{
+ 
+    background-image: url(/assets/cabecera.jpg);
+ background-position: center;
+}
+h3{
+   margin: 0;
+}
+
+
