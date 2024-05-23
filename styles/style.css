@@ -225,7 +225,7 @@ h3{
     align-items: space-between;
     align-items: center;
     width: 65%;
-    padding: 10px;
+    padding: 10;
     
 }
 .cuatro{
@@ -254,16 +254,16 @@ h3{
 .Contenedor-nosotrosDos{
     border: 0%;
     background-color: #35424A;
-    margin 
+     
 }
 
 
 .imagen-891{
-    display: flex;
-    margin-top: 10px;
-    margin-left: 95px;
-    margin-right: 50%;
-    width: 65%;
+    display:flex;
+    margin-top:10px;
+    margin-left:95px;
+    margin-right:50%;
+    width:65%;
    
 }
 .uno2{
