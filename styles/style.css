@@ -159,8 +159,7 @@ h3{
     align-items: space-between;
     align-items: center;
     text-align: center;
-    width: 100%;
-   
+    width: 100vw;  
 }
 .parrafotres{
     display: flex;
@@ -254,7 +253,13 @@ h3{
 .Contenedor-nosotrosDos{
     border: 0%;
     background-color: #35424A;
+    margin-left: 50px;
      
+}
+.Contenedor-nosotrosDos p,
+.Contenedor-nosotrosDos h2{
+
+    color: #fff;
 }
 
 
@@ -320,7 +325,7 @@ h3{
     display: flex;
     flex-direction:column;
     align-items: space-between;
-    align-items: center;
+    align-items: center; 
     width: 65%;
     
 }
@@ -339,6 +344,84 @@ h3{
     padding: 20px 20px 20px 10px;
 
 }
+/* contenedor padre:  */
+.contacto-content-padre{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    background-color: #fff;
+}
+
+/* contenedor form:  */
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+    text-align: left;
+    padding: 0px 60px 0px 180px;
+}
+
+/* form:  */
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input{
+    background-color: #cccccc1c;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+}
+textarea{
+    height: 120px;
+}
+
+.contact-form button {
+    background-color: #1293D4;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0a7bbd;
+}
+
+
+/* imagen mapa:  */
+.mapa-container{
+    padding-top: 20px;
+    width: 500px;
+    margin-left: 20%;
+}
+.mapa-container img{
+    width: 80%;
+    padding-bottom: 200px;
+
+}
+/* CONTACTO:  */
+.inicio-contacto{
+    color: #fff;
+}
+.nosotros-contacto{
+    color: #fff;
+}
+.servicios-contacto{
+    color: #fff;
+}
+.contacto-contacto{
+    color: #1293D4;
+}
+
 
 
 
