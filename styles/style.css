@@ -71,8 +71,8 @@ a{
 }
 .imagenFondo{
  
-    background-image: url(assets/cabecera.jpg);
- background-position: center;
+    background-image: url(../assets/cabecera.jpg);
+    background-position: center;
 }
 h3{
     position: absolute;
