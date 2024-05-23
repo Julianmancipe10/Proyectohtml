@@ -1,3 +1,8 @@
+*{
+ margin: 0;
+ padding: 0;
+ font-family: Arial, Helvetica, sans-serif;   
+}
 body{
     margin: 0%;
     margin-right: 1px;
@@ -9,7 +14,7 @@ section {
 }
 .contenedor{
     border: 0%;
-    background-color: #091725;
+    background-color: #24282B;
     display: flex;
     flex-direction:row;
     align-items: space-between;
@@ -19,29 +24,33 @@ section {
     margin-bottom: 0%;
 }
 .titulo1{
-    color: white;
+    color: #FFFFFF;
     margin-left: 15%;
     margin-right: 10px;
+    font-size: 25px;
 }
 .titulo2{
-    color: rgb(0, 153, 255);
+    color:#1293d4;
     margin: 0%;
+    font-size: 25px;
 }
 .Opciones {
     display: flex;
     padding: 40px;
     align-items: flex-end;
     margin-left: auto;
+    
    
 }
 
 
 .Opciones ul{
-    color: white;
+    color: #FFFFFF;
     display: flex;
     list-style: none;
     padding: 0%;
     margin: 0%;
+
 
     
 }
@@ -50,6 +59,15 @@ section {
     display: flex;
     margin-left: 20px;
     margin-right: 20px ;
+    color: #ffffff;
+}
+.Opciones a{
+    color: #ffffff;
+    text-decoration: none;   
+}
+a{
+    font-size: 15px;
+    
 }
 .imagenFondo{
  
@@ -57,7 +75,275 @@ section {
  background-position: center;
 }
 h3{
-   margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform:translate(-60%,-60%) ;
+    margin: 0%;
+    color: #ffffff;    
 }
+.parrafoUno{
+   position: absolute;
+   top: 35%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   margin: 0;
+   color: rgb(255, 245, 245);
+}
+.contenedorDos{
+    border: 0%;
+    background-color: #24282B;
+    display: flex;
+    flex-direction:row;
+    align-items: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-bottom: 0%;
+      
+}
+.parrafoDos{
+    color: #ffffff;
+    display: flex;
+    margin-left: 20%;
+    font-weight: bold;
+}
+.CorreoMadre{
+
+    display: flex;
+    color: #24282B;
+    align-items: center;
+    flex: 05;
+    justify-content: flex-end;
+    margin-right: 20%;
+    
+
+}
+.Contenedor-correo{
+    display: flex;
+    padding: 4px;
+    justify-content: flex-end;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 5px;
+}
+.boton-enviar {
+    background-color: #ca6902; 
+    color: white; 
+    padding: 5px 4px;
+    border:none;
+    text-align:end;
+    font-size: 14px;
+    
+}.imagenes-parteInferior{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    margin: 01px 10%;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.parrafo{
+    display: flex;
+    margin-top: 15px;
+}
+.contenedortres{
+    border: 0%;
+    background-color:#1293D4;
+    display: flex;
+    flex-direction:row;
+    align-items: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+   
+}
+.parrafotres{
+    display: flex;
+    margin:33px 45%;
+    color: #ffffff;
+}
+.nosotros-uno {
+    border: 0%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction:column;
+    align-items: space-between;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    width: 65%;
+}
+.p1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-left: 95px;
+    margin-right: 50%;
+    column-count: 2;
+    font-weight: bold;
+}
+
+.uno{
+    color: #35424A;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 95px;
+    margin-right: 50%;
+    column-count: 2;
+    width: 65%;
+
+   
+
+}
+.tres{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 95px;
+    margin-right: 50%;
+    column-count: 2;  
+}
+.tres{
+    border: 0%;
+    background-color: #35424A;
+    display: flex;
+    flex-direction:row;
+    align-items: space-between;
+    align-items: center;
+    width: 65%;
+    
+}
+.cuatro{
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 95px;
+    margin-right: 50%;
+    column-count: 2;
+
+   
+    
+}
+.cuatro{
+    border: 0%;
+    background-color: #35424A;
+    display: flex;
+    flex-direction:row;
+    align-items: space-between;
+    align-items: center;
+    
+    
+    
+}
+.Contenedor-nosotrosDos{
+    border: 0%;
+    background-color: #35424A;
+    display: flex;
+    flex-direction:row;
+    align-items: space-between;
+    align-items: center;
+}
+
+
+.imagen-891{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 95px;
+    margin-right: 50%;
+    width: 65%;
+   
+}
+.uno2{
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 95px;
+    margin-right: 50%;
+    column-count: 2;
+   
+
+}
+.uno2{
+    border: 0%;
+    background-color: #E6E6E6;
+    display: flex;
+    flex-direction:column;
+    align-items: space-between;
+    align-items: center; 
+    width: 65%;
+}
+.tres2{
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 95px;
+    margin-right: 50%;
+    column-count: 2;  
+}
+.tres2{
+    border: 0%;
+    background-color: #E6E6E6;
+    display: flex;
+    flex-direction:column;
+    align-items: space-between;
+    align-items: center;
+    width: 65%;
+}
+.cuatro2{
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 95px;
+    margin-right: 50%;
+    column-count: 2;
+    
+}
+.cuatro2{
+    border: 0%;
+    background-color: #E6E6E6;
+    display: flex;
+    flex-direction:column;
+    align-items: space-between;
+    align-items: center;
+    width: 65%;
+    
+}
+.p2{
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.nosotros-contenedor-padre{
+    width:100vw;
+}
+.nosotros-dos{
+    width: 35%;
+    border: 0%;
+    background-color: #35424A;
+    display: flex;
+    flex-direction:row;
+    align-items: space-between;
+    align-items: center
+
+}
+
+
+
+
 
 
